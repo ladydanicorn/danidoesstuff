@@ -1,0 +1,90 @@
+/* Custom styles to match inspiration */
+
+/* Background color to match the mint green */
+.bg-mint {
+    background-color: #bfe3d8;
+  }
+  
+  /* Text colors to match the orange in the inspiration */
+  .text-brand-orange {
+    color: #ea835c;
+  }
+  
+  /* Button and accent styles */
+  .btn-brand {
+    background-color: #ea835c;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-brand:hover {
+    background-color: #d06e4a;
+  }
+  
+  /* Radial ray effect (simplified version of what's in the inspiration) */
+  .radial-rays {
+    position: relative;
+  }
+  
+  .radial-rays::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: radial-gradient(circle, transparent 60%, rgba(191, 227, 216, 0.5) 60%, rgba(191, 227, 216, 0.5) 65%, transparent 65%);
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  /* Main content container */
+  .content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  /* Custom hover effect for nav links */
+  .nav-link {
+    position: relative;
+    padding-bottom: 0.25rem;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ea835c;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Active nav link */
+  .nav-link.active::after {
+    width: 100%;
+  }
+  
+  /* Font overrides to ensure we're using the marker font for titles and Inter for body */
+  .title-font {
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Decorative separator */
+  .decorative-separator {
+    width: 100px;
+    height: 3px;
+    background-color: #ea835c;
+    margin: 1.5rem auto;
+  }

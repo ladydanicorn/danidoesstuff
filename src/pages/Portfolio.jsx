@@ -23,7 +23,8 @@ export default function Portfolio() {
         gap: "2rem",
         gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))",
         maxWidth: 1000,
-        margin: "0 auto"
+        margin: "0 auto",
+        width: "100%",
       }}>
         {/* D&D Tavern Intro */}
         <div className="portfolio-card" style={{ background: "rgba(255,255,255,0.04)", borderRadius: 14, padding: 18, boxShadow: "0 2px 8px rgba(0,0,0,0.07)" }}>

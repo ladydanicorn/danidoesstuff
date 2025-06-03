@@ -44,7 +44,7 @@ export default function Portfolio() {
           <img src="/ruliff-andrean-czRvgj_CZD4-unsplash.jpg" alt="Red carpet illustration" style={{ width: "100%", borderRadius: 8, marginBottom: 12 }} />
           <h2 className="custom-title" style={{ fontSize: "1.35rem" }}>Celebrity & Health/Nutrition Clickbait</h2>
           <p style={{ margin: "10px 0" }}>Clickbait: Because a girl's gotta eat.</p>
-          <a className="portfolio-link" href="https://drive.google.com/drive/folders/1r0oCgYSnCFjiky2_0BpkgzS1OrkO33Lo?usp=drive_link" target="_blank" rel="noopener noreferrer">Read the Articles</a>
+          <a className="portfolio-link" href="https://drive.google.com/file/d/1FLuHDbj9AqdyB84XscUdi-cCLJOGmxXZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Read the Articles</a>
         </div>
         {/* Unemployment Article */}
         <div className="portfolio-card" style={{ background: "rgba(255,255,255,0.04)", borderRadius: 14, padding: 18, boxShadow: "0 2px 8px rgba(0,0,0,0.07)" }}>
